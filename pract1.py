@@ -110,7 +110,6 @@ import re
 
 
 # import re
-#
 # s = 'geeks.forgeeks'
 #
 # # without using \
@@ -181,8 +180,8 @@ import re
 # text = "Hello world"
 # result = re.search(pattern, text)
 # print(result.group())
-
-
+#
+#
 # text = "I have 123 apples and 456 oranges"
 #
 # print(re.search(r"(\d+.*)", text).group())
@@ -194,9 +193,9 @@ import re
 # text = "This is a sentence with a period."
 # result = re.search(pattern, text)
 # print(result.group())  # "."
-#
-# import re
-#
+
+import re
+
 # def validate_email(email):
 #     pattern = r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"
 #     if re.match(pattern, email):
@@ -207,8 +206,8 @@ import re
 # email = "charanbaru@gmail.com"
 # print(validate_email(email))  # True
 #
-#
-#
+
+
 # import re
 # sample_txt = "The quick brown fox jumps over the lazy dog"
 # x = re.search("brown.*jumps",sample_txt)
@@ -216,8 +215,8 @@ import re
 #     print(True)
 # else:
 #     print(False)
-#
-# # print(type(x))
+
+# print(type(x))
 
 #
 # import re
@@ -227,7 +226,7 @@ import re
 #     print(True)
 # else:
 #     print(False)
-
+#
 
 # import re
 #
@@ -244,3 +243,4 @@ import re
 # x = re.split(r'\d+', txt)  # Split by one or more digits
 # print(x)
 
+#
