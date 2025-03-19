@@ -30,11 +30,11 @@
 # print(split(d+','On 12th Jan 2016, at 11:02 AM'))
 #
 #
-# # import re
+# import re
 # print(re.split('\d+', 'On 12th Jan 2016, at 11:02 AM', 1))
 # print(re.split('[a-f]+', 'Aey, Boy oh boy, come here', flags=re.IGNORECASE))
 # print(re.split('[a-f]+', 'Aey, Boy oh boy, come here'))
-#
+# #
 
 #
 # # import re
@@ -189,10 +189,10 @@ import re
 # print(re.search(r"(\d+.*?)", text).group()
 #
 #
-# pattern = r"\."
-# text = "This is a sentence with a period."
-# result = re.search(pattern, text)
-# print(result.group())  # "."
+pattern = r"\."
+text = "This is a sentence with a period."
+result = re.search(pattern, text)
+print(result.group())  # "."
 
 import re
 
@@ -244,3 +244,4 @@ import re
 # print(x)
 
 #
+
